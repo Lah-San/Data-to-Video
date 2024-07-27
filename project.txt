@@ -1,0 +1,29 @@
+VideoFile.exe
+
+Needs to take any file or multiple files as a input (any format) -> mainly focus on .zip files. 
+The app needs to convert the files into a video with encoding and decoding capabilities. 
+the converted file needs to be mp4
+
+
+classes and functions map:
+
+class OpenFile
+function open_file
+function mem_store
+function close_file
+
+class EncryptionKey
+function get_enckey
+
+
+class EncodeFile
+function validate_file
+function loader
+function encode_binary
+function encode_video
+
+class DecodeFile
+function validate_file
+function loader
+function decode_binary
+function decode_video
