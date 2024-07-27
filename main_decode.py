@@ -129,12 +129,12 @@ def main():
     DecodeFile.extract_frames_from_video(video_path, frames_dir)
     DecodeFile.convert_frames_to_binary(frames_dir, binary_file_path)
     DecodeFile.convert_binary_to_text(binary_file_path, text_file_path)
-    pdf_file_path = DecodeFile.convert_txt_to_original(text_file_path)
+    # pdf_file_path = DecodeFile.convert_txt_to_original(text_file_path)
     
-    if pdf_file_path:
-        print(f"Original file reconstructed and saved at: {pdf_file_path}")
-    else:
-        print("Failed to convert the text file to PDF.")
+    # if pdf_file_path:
+    #     print(f"Original file reconstructed and saved at: {pdf_file_path}")
+    # else:
+    #     print("Failed to convert the text file to PDF.")
 
 if __name__ == "__main__":
     main()
